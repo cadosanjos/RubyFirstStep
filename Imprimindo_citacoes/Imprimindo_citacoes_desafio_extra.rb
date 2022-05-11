@@ -8,7 +8,7 @@ quotes = [
     quote: "I recognise no God except the God that is to be found in the hearts of the dumb millions... And I worship the God that is Truth ... through the service of these millions."
   },
   {
-    author: 'Eminem',
+    author: "Eminem",
     quote: "The truth is you don't know what is going to happen tomorrow. Life is a crazy ride, and nothing is guaranteed."
   }
 ]
