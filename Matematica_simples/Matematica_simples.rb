@@ -32,4 +32,4 @@ end
 number_one = get_numbers
 number_two = get_numbers
 
-puts "#{number_one} + #{number_two} = #{sum(number_one, number_two)}\n#{number_one} - #{number_two} = #{difference_result = difference(number_one, number_two)}\n#{number_one} * #{number_two} = #{product_result = product(number_one, number_two}\n#{number_one} / #{number_two} = #{quotient_result = quotient(number_one, number_two)}"
+puts "#{number_one} + #{number_two} = #{sum(number_one, number_two)}\n#{number_one} - #{number_two} = #{difference_result = difference(number_one, number_two)}\n#{number_one} * #{number_two} = #{product_result = product(number_one, number_two)}\n#{number_one} / #{number_two} = #{quotient_result = quotient(number_one, number_two)}"
