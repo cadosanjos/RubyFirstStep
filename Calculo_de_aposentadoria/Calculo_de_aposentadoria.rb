@@ -1,8 +1,8 @@
 print "What's your current age? "
-age = gets.chomp.to_i
+age = Integer(gets.chomp)
 
-print "At what age would you like to retire? "
-retire = gets.chomp.to_i
+print 'At what age would you like to retire? '
+retire = Integer(gets.chomp)
 
 left_years = retire - age
 current_year = Time.new.year
@@ -12,5 +12,5 @@ if left_years.positive?
   puts "You have #{left_years} years left until you can retire."
   puts "It is #{current_year}, so you can retire in #{retire_year}."
 else
-  puts "You can retire!"
+  puts 'You can retire!'
 end
