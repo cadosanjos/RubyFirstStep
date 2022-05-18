@@ -1,6 +1,6 @@
 def create_entries(entry)
   print "What is the #{entry} of the room in feet? "
-  number = Float(gets.chomp)
+  Float(gets.chomp)
 rescue
   puts "Please entry a number"
   retry
