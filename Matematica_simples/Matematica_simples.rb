@@ -1,27 +1,25 @@
 def get_numbers
-
-  begin
-    print "What's the number? "
-    number = Integer(gets.chomp)
-  rescue
-    puts "Please enter an integer number"
-    retry
-  end
+  print "What's the number? "
+  number = Integer(gets.chomp)
+rescue
+  puts 'Please enter an integer number'
+  retry
 end
 
-def sum (one, two)
+
+def sum(one, two)
   sum = one + two
 end
 
-def difference (one, two)
+def difference(one, two)
   difference = one - two
 end
 
-def product (one, two)
+def product(one, two)
   product = one * two
 end
 
-def quotient (one, two)
+def quotient(one, two)
   if two.zero?
     quotient = "It's not possible to made a zero division"
   else
