@@ -1,13 +1,14 @@
-print "What's your name?"
-name = gets.chomp
+print "What's your name? "
+name = gets.chomp.downcase
 
 last_index = name.length-1
 last_char = name[last_index]
 
-if last_char == 'o'
-  puts "Hello, Mr. #{name}, nice to meet you!"
-elsif last_char == 'a'
-  puts "Hello, Miss. #{name}, nice to meet you!"
+case last_char 
+when 'o'
+  puts "Hello, Mr. #{name.capitalize}, nice to meet you!"
+when 'a'
+  puts "Hello, Miss. #{name.capitalize}, nice to meet you!"
 else
-  puts "Hello, #{name}, nice to meet you!"
+  puts "Hello, #{name.capitalize}, nice to meet you!"
 end
