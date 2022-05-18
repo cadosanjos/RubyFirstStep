@@ -1,16 +1,16 @@
-print "Tell me a pet: "
+print 'Tell me a pet: '
 pet = gets.chomp
 
-print "Do you have a pet? "
+print 'Do you have a pet? '
 have_pet = gets.chomp
 
-print "Tell me a verb: "
+print 'Tell me a verb: '
 verb = gets.chomp
 
-print "Tell me a color: "
+print 'Tell me a color: '
 color = gets.chomp
 
-print "Tell me an adverb: "
+print 'Tell me an adverb: '
 adverb = gets.chomp
 
 if have_pet
