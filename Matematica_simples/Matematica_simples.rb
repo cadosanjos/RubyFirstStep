@@ -6,7 +6,6 @@ rescue
   retry
 end
 
-
 def sum(one, two)
   sum = one + two
 end
